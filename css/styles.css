@@ -87,5 +87,7 @@ svg{
 /* Mobile Responsiveness */
 /* screens below 500px */
 @media(max-width:300px){
-
+    .body-container{
+        width: 50%;
+    }
 }
