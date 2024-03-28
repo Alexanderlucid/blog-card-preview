@@ -1,0 +1,33 @@
+/* Margin */
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 0.8rem 0;
+}
+/* padding */
+.p-1{
+    padding: 0.5rem;
+}
+/* colors */
+.bg-primary{
+    background-color: var(--yellow-color);
+}
+/* Text-Formating */
+.text-align{
+    text-align: left;
+}
+.line-height{
+    line-height: 1.5rem;
+}
+/* Text colors */
+.grey{
+    color: var(--grey-color);
+}
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
+/* Font-Weights */
