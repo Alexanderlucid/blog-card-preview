@@ -21,7 +21,6 @@
     --white-color:hsl(0, 0%, 100%);
 }
 body{
-    overflow-y: scroll;
     font-family: "Figtree", sans-serif;
     font-size:calc(10px + 0.1vw);
     background-color: var(--yellow-color) ;
@@ -32,7 +31,7 @@ body{
     justify-content: center;
 }
 .body-container{
-    margin: 50px 0;
+    margin: 100px 0;
     background-color: var(--white-color);
     padding: 20px;
     max-width: 35%;
