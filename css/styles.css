@@ -31,7 +31,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow-y: scroll;
 }
 .body-container{
     margin: 100px 0;
@@ -89,7 +88,7 @@ svg{
 /* screens below 500px */
 @media(min-width:280px){
     .body-container{
-        min-width: 100%;
+        min-width: 90%;
         height: fit-content;
 
     }
@@ -108,6 +107,12 @@ svg{
         min-width: max-content;
         height: fit-content;
     }
+}
+@media screen and (orientation:landscape) {
+    .body{
+        overflow-y: scroll;
+    }
+    
 }
 /* @media(max-width:1030px){
     .body-container{
