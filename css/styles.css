@@ -104,13 +104,17 @@ svg{
         font-size: calc(10px + 0.5vw);
     }
     .body-container{
-        min-width: max-content;
+        min-width: fit-content;
         height: fit-content;
     }
 }
 @media screen and (orientation:landscape) {
     .body{
         overflow-y: scroll;
+    }
+    .body-container{
+        height: max-content;
+        width: fit-content;
     }
     
 }
