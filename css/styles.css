@@ -79,7 +79,6 @@ svg{
 .sub-profile img{
     width: 13%;
     height: fit-content;
-    /* aspect-ratio: 1/1; */
     border-radius: 50%;
 }
 
@@ -87,14 +86,14 @@ svg{
 /* screens below 500px */
 @media(min-width:280px){
     .body-container{
-        max-width: 90%;
+        max-width: 80%;
         height: fit-content;
 
     }
 }
 @media(min-width:320px){
     .body-container{
-        max-width: 95%;
+        max-width: 80%;
         height: fit-content;
     }
 }
