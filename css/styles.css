@@ -91,13 +91,13 @@ svg{
 
     }
 }
-@media(min-width:320px){
+@media(max-width:320px){
     .body-container{
         max-width: 80%;
         height: fit-content;
     }
 }
-@media(min-width:324px){
+@media(max-width:324px){
     .body-container{
         min-width: fit-content;
         height: fit-content;
