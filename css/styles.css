@@ -85,6 +85,9 @@ svg{
 /* Mobile Responsiveness */
 /* screens below 500px */
 @media(min-width:280px){
+    body{
+        width: 100%;
+    }
     .body-container{
         max-width: 70%;
         height: fit-content;
@@ -92,12 +95,18 @@ svg{
     }
 }
 @media(min-width:320px){
+    body{
+        width: 100%;
+    }
     .body-container{
         max-width: 80%;
         height: fit-content;
     }
 }
 @media(min-width:324px){
+    body{
+        width: 100%;
+    }
     .body-container{
         min-width: fit-content;
         height: fit-content;
