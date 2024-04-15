@@ -87,7 +87,7 @@ svg{
 /* screens below 500px */
 @media(min-width:280px){
     .body-container{
-        min-width: 90%;
+        min-width: 80%;
         height: fit-content;
 
     }
