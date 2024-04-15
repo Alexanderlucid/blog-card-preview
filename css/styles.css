@@ -87,14 +87,14 @@ svg{
 /* screens below 500px */
 @media(min-width:280px){
     .body-container{
-        min-width: fit-content;
+        min-width: 90%;
         height: fit-content;
 
     }
 }
 @media(min-width:320px){
     .body-container{
-        min-width: fit-content;
+        min-width: 90%;
         height: fit-content;
     }
 }
