@@ -91,23 +91,36 @@ svg{
         height: fit-content;
     }
 }
-@media(max-width:409px){
+@media(max-width:408px){
+    .body-container h1{
+        font-size: 22px;
+    }
     .body-container{
         min-width: 90%;
         height: fit-content;
     }
 }
 @media(max-width:350px){
+    .body-container h1{
+        font-size: 21px;
+    }
     .body-container{
-        min-width: 80%;
+        min-width: 90%;
+        height: fit-content;
+    }
+}
+@media(max-width:325px){
+    .body-container h1{
+        font-size: 20px;
+    }
+    .body-container{
+        min-width: 90%;
+        height: fit-content;
     }
 }
 @media(max-width:300px){
-        /* .body{
-            font-size: 32px;
-        } */
     .body-container h1{
-        font-size: 19px;
+        font-size: 17px;
     }
     .body-container{
         min-width: 90%;
