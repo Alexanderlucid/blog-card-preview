@@ -91,7 +91,24 @@ svg{
         height: fit-content;
     }
 }
-@media(max-width:320px){
+@media(max-width:409px){
+    .body-container{
+        min-width: 90%;
+        height: fit-content;
+    }
+}
+@media(max-width:350px){
+    .body-container{
+        min-width: 80%;
+    }
+}
+@media(max-width:300px){
+        /* .body{
+            font-size: 32px;
+        } */
+    .body-container h1{
+        font-size: 19px;
+    }
     .body-container{
         min-width: 90%;
         height: fit-content;
